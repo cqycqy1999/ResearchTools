@@ -7,15 +7,15 @@ import os
 # api2 一般是新会议
 new_client_api2 = openreview.api.OpenReviewClient(
     baseurl='https://api2.openreview.net',
-    username='cqy_1999@mail.ustc.edu.cn',
-    password='Cqy@5AAAAA'
+    username='',
+    password=''
 )
 
 # api1 一般是旧会议
 # old_client_api1 = openreview.Client(
 #     baseurl='https://api.openreview.net',
-#     username='cqy_1999@mail.ustc.edu.cn',
-#     password='Cqy@5AAAAA'
+#     username='',
+#     password=''
 # )
 
 # 获取会议列表
